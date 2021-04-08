@@ -1,4 +1,5 @@
 .characterEditor {
+  position: relative;
   padding-top: 128px;
   padding-bottom: 64px;
 }
@@ -37,4 +38,12 @@
 .controlColumn {
   width: 50%;
 }
+
+.perspectiveBox {
+  position: fixed;
+  bottom: 0;
+  height: 40%;
+  right: 0;
+  left: 0;
+  background-color: hsl(195deg, 20%, 86%);
 }
